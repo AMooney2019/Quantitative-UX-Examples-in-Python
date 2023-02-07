@@ -1,2 +1,2 @@
-# Quantitative-UX-Examples-in-Python
-Examples of how to program quantitative UX procedures in Python.
+# Statistics examples in Python.
+Examples of how to use Python to program a variety of statistical procedures.
