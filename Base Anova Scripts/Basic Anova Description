@@ -1,0 +1,13 @@
+Anova, or Analysis of Variance, is a common tool used in statistics. For those new to Statistics,
+the concept of an Anova seems frightening; it's not once you understand how it works.
+
+An Anova works upon the following assumptions:
+- Independent samples are randomly drawn from a population;
+- The samples have the same or similar levels of variance (known as homogeneity of variance);
+- Each sample value, or score, includes a component of random, normally distributed 'experimental error'.
+
+In a nutshell, and if I understand it correctly, the test compares the ratio of the experimental error values between-groups compared to
+the values within-groups. In the absence of treatment effects, the ratio of experimental errors should be close to 1.0. 
+Ratios above 1.0 indicate that the score values are influenced by something in addition to the error, possibly one or more treatment
+effects. This value is then compared against a set of tabled F values to determine the probability that the calculated value occurs by 
+some level of chance. 
