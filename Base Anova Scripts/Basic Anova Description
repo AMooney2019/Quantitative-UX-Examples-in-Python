@@ -1,3 +1,4 @@
+### Introduction:
 Anova, or Analysis of Variance, is a common tool used in statistics. For those new to Statistics,
 the concept of an Anova seems frightening; it's not once you understand how it works.
 
@@ -11,3 +12,15 @@ the values within-groups. In the absence of treatment effects, the ratio of expe
 Ratios above 1.0 indicate that the score values are influenced by something in addition to the error, possibly one or more treatment
 effects. This value is then compared against a set of tabled F values to determine the probability that the calculated value occurs by 
 some level of chance. 
+
+### Usage:
+The files in this folder include a basic script used for calculating an Anova (.py file), along with some example tables of data (.csv files).
+While this code is primarily included as a learning tool, it can be used by practitioners who do not have access to commercial statistics packages
+to quickly test and report on a set of experimental data. Once a Python environment is set up, calculating test values using this script 
+should be much faster than using a spreadsheet. 
+
+### Limitations:
+While a test such as an Anova can indicate whether differences in sample values are significant or not, the test does not indicate
+which variable level is 'the winner'; it only indicates if the value differences between groups is statistically significant. 
+For data where only two levels of a test variable are compared, determining 'the winner' should be straight-forward. 
+When three or more levels are evaluated, however, additional post-hoc tests are required. This script doesn't cover those post-hoc tests. 
